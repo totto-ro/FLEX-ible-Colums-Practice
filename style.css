@@ -1,9 +1,15 @@
+
+body{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
 .row{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 
 .col{
@@ -14,14 +20,14 @@
 }
 
 .col-2{
-    background-color: lightseagreen;
+    background-color: lightseagreen;;
     margin: 20px;
     padding: 30px;
     flex: 2;
 }
 
 .col-3{
-    background-color: lightseagreen;
+    background-color: lightseagreen;;
     margin: 20px;
     padding: 30px;
     flex: 3;
