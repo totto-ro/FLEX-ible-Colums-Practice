@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.col{
+    background-color: lightseagreen;
+    margin: 20px;
+    padding: 30px;
+    flex: 1;
+}
+
+.col-2{
+    background-color: lightseagreen;
+    margin: 20px;
+    padding: 30px;
+    flex: 2;
+}
+
+.col-3{
+    background-color: lightseagreen;
+    margin: 20px;
+    padding: 30px;
+    flex: 3;
+}
